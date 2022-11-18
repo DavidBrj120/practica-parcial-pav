@@ -32,6 +32,7 @@
             this.consignaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.altaDeEquipoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reporte1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,20 +58,31 @@
             // altaDeEquipoToolStripMenuItem
             // 
             this.altaDeEquipoToolStripMenuItem.Name = "altaDeEquipoToolStripMenuItem";
-            this.altaDeEquipoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.altaDeEquipoToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.altaDeEquipoToolStripMenuItem.Text = "Alta de Equipo";
             // 
             // reporte1ToolStripMenuItem
             // 
             this.reporte1ToolStripMenuItem.Name = "reporte1ToolStripMenuItem";
-            this.reporte1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.reporte1ToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.reporte1ToolStripMenuItem.Text = "Reporte 1";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(194, 154);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(264, 31);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "HOLA BIENVENIDO";
             // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Principal";
@@ -89,6 +101,7 @@
         private System.Windows.Forms.ToolStripMenuItem consignaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem altaDeEquipoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reporte1ToolStripMenuItem;
+        private System.Windows.Forms.Label label1;
     }
 }
 
