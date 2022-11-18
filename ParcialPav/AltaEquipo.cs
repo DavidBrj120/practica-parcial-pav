@@ -16,5 +16,19 @@ namespace ParcialPav
         {
             InitializeComponent();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void AltaEquipo_Load(object sender, EventArgs e)
+        {
+            cargarFecha();
+        }
+        private void cargarFecha()
+        {
+            txtFecha.Text = DateTime.Now.ToShortDateString();
+        }
     }
 }
